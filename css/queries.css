@@ -1,0 +1,714 @@
+/****************/
+/* BELOW 1550px (Smaller desktops) */
+/***************/
+/* 1550/16 = 97em*/
+@media (max-width: 97em) {
+    .heading-secondary {
+        font-size: 4.4rem;
+    }
+
+    .tagline{
+        font-size: 2.4rem;
+    }
+
+    .convert-heading {
+        font-size: 3.6rem;
+    }
+
+    .convert-text-frag {
+        font-size: 2.4rem;
+    }
+
+    .convert-input-label {
+        font-size: 1.8rem;
+    }
+
+    .convert-input-text {
+        font-size: 1.6rem;
+    }
+
+    .convert-input-text::placeholder {
+        font-size: 1.6rem;
+    }
+
+    .hero-card {
+        padding: 2rem 1rem 2rem 0;
+    }
+
+    .section-analysis p {
+        font-size: 3.6rem;
+    }
+
+    .fav-btn .fav-icon {
+        height: 4.4rem;
+        width: 4.4rem;
+    }
+
+    .calc-text-frag {
+        font-size: 3rem;
+    }
+
+    .calc-text-frag span:last-of-type {
+        font-size: 3.6rem;
+    }
+
+    .calc-input-label {
+        font-size: 2rem;
+    }
+
+    .calc-input-text {
+        font-size: 2rem;
+    }
+
+    .calc-card {
+        padding: 1rem 1.4rem 1.4rem 1rem;
+    }
+
+    .section-pinned p {
+        font-size: 3rem;
+    }
+
+    .fav-btn .favd-icon {
+        height: 3.6rem;
+        width: 3.6rem;
+    }
+
+    .btn {
+        font-size: 2.4rem;
+    }
+}
+
+/****************/
+/* BELOW 1260px (Landscape tablets) */
+/***************/
+/* 1260/16 = 78.7em*/
+@media (max-width: 79em) {
+    .heading-primary { 
+        font-size: 7.4rem;
+    }
+
+    .heading-secondary {
+        font-size: 3.6rem;
+    }
+
+    .sys-toggle {
+        width: 70px;
+        height: 35px;
+    }
+
+    .sys-toggle::after {
+        width: 28px;
+        height: 28px;
+        top: 3.8px;
+        left: 3px;
+    }
+
+    .sys-checkbox:checked + .sys-toggle::after {
+        left: 39px;
+    }
+
+    .sys-metric ,
+    .sys-imperial {
+        font-size: 1.4rem;
+    }
+    
+    .current-toggle-value {
+        font-size: 2.4rem !important;
+    }
+
+    .convert-text-frag {
+        font-size: 1.8rem;
+    }
+
+    .convert-heading {
+        font-size: 3rem;
+    }
+
+    .convert-input-label {
+        font-size: 1.4rem;
+    }
+
+    .convert-input-text {
+        font-size: 1.2rem;
+    }
+
+    .convert-input-text::placeholder {
+        font-size: 1.2rem;
+    }
+
+    .hero-card {
+        padding: 1rem 2rem 1rem 0;
+        margin: 0 3rem;
+    }
+
+    .section-analysis {
+        padding: 5.2rem;
+    }
+
+    .section-analysis p {
+        font-size: 3rem;
+    }
+
+    .fav-btn .fav-icon {
+        height: 3.6rem;
+        width: 3.6rem;
+    }
+
+    .calc-text-frag {
+        font-size: 2.4rem;
+    }
+
+    .calc-text-frag span:last-of-type  {
+        font-size: 3rem;
+    }
+
+    .calc-input-label {
+        font-size: 1.8rem;
+    }
+
+    .calc-input-text {
+        font-size: 1.8rem;
+    }
+
+    .calc-card {
+        padding: 1rem 2rem 2rem 1rem;
+    }
+
+    .section-pinned p {
+        font-size: 2.4rem;
+    }
+
+    .fav-btn .favd-icon {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+}
+
+/****************/
+/* BELOW 1110px (Portrait tablets) */
+/***************/
+/* 1110/16 = 69.3em*/
+@media (max-width: 70em) {
+    .heading-primary { 
+        font-size: 6.2rem;
+    }
+
+    .tagline {
+        font-size: 2rem;
+    }
+
+    .heading-secondary {
+        font-size: 3rem;
+    }
+
+    .hero-title {
+        margin-bottom: 5.2rem;
+    }
+
+    .flex-row {
+        margin-bottom: 2rem;
+    }
+
+    .convert-text-frag {
+        font-size: 2rem;
+    }
+
+    .convert-heading {
+        font-size: 3.6rem;
+    }
+
+    .convert-input-label {
+        font-size: 2rem;
+    }
+
+    .convert-input-text {
+        font-size: 1.8rem;
+    }
+
+    .convert-input-text::placeholder {
+        font-size: 1.8rem;
+    }
+
+    .card {
+        box-shadow: 0 0.6rem 0.6rem 0 rgba(57, 17, 1, 0.1);
+    }
+
+    .hero-card {
+        padding: 1.4rem 0;
+        margin: 0 9.8rem;
+    }
+
+    .grid--col-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .btn {
+        font-size: 2.4rem;
+    }
+
+    .section-analysis p {
+        font-size: 2.4rem;
+    }
+
+    .section-calculations {
+        padding: 0 5.2rem 5.2rem 5.2rem;
+    }
+
+    .calc-text-frag {
+        font-size: 2rem;
+    }
+
+    .calc-text-frag span:last-of-type {
+        font-size: 2.4rem;
+    }
+
+    .calc-input-label {
+        font-size: 1.4rem;
+    }
+
+    .calc-input-text {
+        font-size: 1.4rem;
+    }
+
+    .calc-card {
+        padding: 1rem 1.4rem 1.4rem 1rem;
+    }
+
+    .fav-btn .favd-icon {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .margin-bottom-md {
+        margin-bottom: 3.6rem;
+    }
+}
+
+/****************/
+/* BELOW 816px (landscape phones) */
+/***************/
+/* 816/16 = 51em*/
+@media (max-width: 51em) {
+    .heading-primary { 
+        font-size: 4.4rem;
+    }
+
+    .tagline {
+        font-size: 1.8rem;
+    }
+
+    .heading-secondary {
+        font-size: 2.4rem;
+    }
+
+    .hero-title {
+        margin-bottom: 3.6rem;
+    }
+
+    .sys-toggle {
+        width: 60px;
+        height: 30px;
+    }
+
+    .sys-toggle::after {
+        width: 23px;
+        height: 23px;
+        top: 3.8px;
+        left: 3px;
+    }
+
+    .sys-checkbox:checked + .sys-toggle::after {
+        left: 34px;
+    }
+
+    .sys-metric ,
+    .sys-imperial {
+        font-size: 1.2rem;
+    }
+    
+    .current-toggle-value {
+        font-size: 2rem !important;
+    }
+
+    .flex-gap-sm {
+        gap: 1.2rem;
+    }
+
+    .convert-text-frag {
+        font-size: 1.8rem;
+    }
+
+    .convert-heading {
+        font-size: 3rem;
+    }
+
+    .convert-input-label {
+        font-size: 1.8rem;
+    }
+
+    .convert-input-text {
+        font-size: 1.4rem;
+    }
+
+    .convert-input-text::placeholder {
+        font-size: 1.4rem;
+    }
+
+    .hero-card {
+        padding: 1.4rem 1rem 1.4rem 0;
+        margin: 0 4.4rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+
+    .section-analysis {
+        padding: 4.4rem;
+    }
+
+    .section-analysis p {
+        font-size: 2.4rem;
+    }
+
+    .section-calculations {
+        padding: 0 4.4rem 4.4rem 4.4rem;
+    }
+
+    .calc-text-frag {
+        font-size: 1.8rem;
+    }
+
+    .calc-text-frag span:last-of-type {
+        font-size: 2rem;
+    }
+
+    .calc-input-label {
+        font-size: 1rem;
+    }
+
+    .calc-input-text {
+        font-size: 1rem;
+    }
+
+    .section-pinned {
+        padding: 4.4rem;
+    }
+
+    .section-pinned p {
+        font-size: 2rem;
+    }
+}
+
+/****************/
+/* BELOW 650px (portrait phones) */
+/***************/
+/* 650/16 = 40.5em*/
+@media (max-width: 40.5em) {
+
+    .section-hero {
+        padding: 6.2rem;
+    }
+
+    .heading-primary { 
+        font-size: 3.6rem;
+        line-height: 1.4;
+    }
+
+    .tagline {
+        font-size: 1.4rem;
+    }
+
+    .heading-secondary {
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+
+    .hero-title {
+        margin-bottom: 2rem;
+    }
+
+    .sys-toggle {
+        width: 40px;
+        height: 20px;
+    }
+
+    .sys-toggle::after {
+        width: 15px;
+        height: 15px;
+        top: 2.5px;
+        left: 2px;
+    }
+
+    .sys-checkbox:checked + .sys-toggle::after {
+        left: 23px;
+    }
+
+    .sys-metric ,
+    .sys-imperial {
+        font-size: 1.2rem;
+    }
+    
+    .current-toggle-value {
+        font-size: 1.8rem !important;
+    }
+
+    .flex-gap-sm {
+        gap: 1.2rem;
+    }
+
+    .convert-text-frag {
+        font-size: 1.4rem;
+    }
+
+    .convert-heading {
+        font-size: 2.4rem;
+    }
+
+    .convert-input-label {
+        font-size: 1.4rem;
+    }
+
+    .convert-input-text {
+        font-size: 1.2rem;
+    }
+
+    .convert-input-text::placeholder {
+        font-size: 1.2rem;
+    }
+
+    .hero-card {
+        padding: 1.4rem 4rem 1.4rem 4rem;
+        margin: 0 4.4rem;
+    }
+
+    .btn {
+        font-size: 1.8rem;
+    }
+
+    .section-analysis {
+        padding: 3.6rem;
+    }
+
+    .section-analysis p {
+        font-size: 2rem;
+    }
+
+    .section-calculations {
+        padding: 0 3.6rem 3.6rem 3.6rem;
+    }
+
+    .calc-text-frag {
+        font-size: 1.4rem;
+    }
+
+    .calc-text-frag span:last-of-type {
+        font-size: 1.8rem;
+    }
+
+    .calc-input-label {
+        font-size: 1rem;
+    }
+
+    .calc-input-text {
+        font-size: 1rem;
+    }
+
+    .calc-card {
+        padding: 0.8rem 1.8rem 1rem 0;
+    }
+
+    .fav-btn .fav-icon {
+        height: 2.4rem;
+        width: 2.4rem;
+    }
+
+    .section-pinned {
+        padding: 3.6rem;
+    }
+
+    .section-pinned p {
+        font-size: 1.6rem;
+    }
+}
+
+/****************/
+/* BELOW 570px (small portrait phones) */
+/***************/
+/* 570/16 = 36em*/
+@media (max-width: 36em) {
+
+    .section-hero {
+        padding: 3.6rem;
+    }
+
+    .heading-primary { 
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+
+    .tagline {
+        font-size: 1.2rem;
+    }
+
+    .heading-secondary {
+        font-size: 1.6rem;
+        line-height: 1.4;
+    }
+
+    .hero-title {
+        margin-bottom: 1.8rem;
+    }
+
+    .sys-toggle {
+        width: 30px;
+        height: 15px;
+    }
+
+    .sys-toggle::after {
+        width: 10px;
+        height: 10px;
+        top: 2.5px;
+        left: 2px;
+    }
+
+    .sys-checkbox:checked + .sys-toggle::after {
+        left: 18px;
+    }
+
+    .sys-metric ,
+    .sys-imperial {
+        font-size: 1rem;
+    }
+    
+    .current-toggle-value {
+        font-size: 1.4rem !important;
+    }
+
+    .convert-grid {
+        row-gap: 1rem;
+    }
+
+    .flex-gap-sm {
+        gap: 1rem;
+    }
+
+    .input-text {
+        padding: 0.8rem;
+    }
+
+    .convert-text-frag {
+        font-size: 1.2rem;
+    }
+
+    .convert-heading {
+        font-size: 1.8rem;
+    }
+
+    .convert-input-label {
+        font-size: 1rem;
+    }
+
+    .convert-input-text {
+        font-size: 1rem;
+    }
+
+    .convert-input-text::placeholder {
+        font-size: 1rem;
+    }
+
+    .hero-card {
+        padding: 1rem 2.4rem 1rem 2.4rem;
+        margin: 0;
+    }
+
+    .grid--col-2 {
+        gap: 2rem;
+    }
+
+    .margin-bottom-md {
+        margin-bottom: 2rem;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+        padding: 0.8rem 1.4rem;
+    }
+
+    .section-analysis {
+        padding: 2.4rem;
+    }
+
+    .section-analysis p {
+        font-size: 1.4rem;
+    }
+
+    .section-calculations {
+        padding: 0 3.6rem 3.6rem 3.6rem;
+    }
+
+    .calc-text-frag {
+        font-size: 1rem;
+    }
+
+    .calc-text-frag span:last-of-type {
+        font-size: 1.2rem;
+    }
+
+    .calc-input-label {
+        font-size: 0.8rem;
+    }
+
+    .calc-input-text {
+        font-size: 0.8rem;
+    }
+
+    .calc-card {
+        padding: 0.8rem 0.8rem 0.8rem 0;
+    }
+
+    .fav-btn .favd-icon {
+        height: 1.8rem;
+        width: 1.8rem;
+    }
+
+    .section-pinned {
+        padding: 3.6rem;
+    }
+
+    .section-pinned p {
+        font-size: 1.2rem;
+    }
+}
+
+/****************/
+/* BELOW 330px (small portrait phones) */
+/***************/
+/* 330/16 = 20.6em*/
+@media (max-width: 21em) {
+    .calc-convert-grid {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .calc-measure-grid {
+        grid-template-columns: 1fr;
+
+        gap: 0;
+    }
+
+    .input-text {
+        padding: 0.5rem;
+    }
+
+    .calc-card {
+        padding: 0.8rem 1rem;
+    }
+
+}

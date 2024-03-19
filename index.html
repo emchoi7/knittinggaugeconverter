@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Import Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <!-- Import Icons-->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" context="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script defer src="js/script.js"></script>
+
+    <title>Knitting Gauge Converter</title>
+</head>
+<body>
+    <section class="section-hero">
+        <div class="hero-title">
+            <h3 class="tagline"> gauges converted!</h2>
+            <h1 class="heading-primary">Knitting Gauge Converter</h1>
+        </div>
+        <form class="form">
+            <div class="flex-row flex-gap-sm">
+                <label for="sys-switch" class="flex-row-center-item sys-metric current-toggle-value">Metric</label>
+                <input type="checkbox" id="sys-switch" class="sys-checkbox" onclick="handleSysToggle()" />
+                <label for="sys-switch" class="sys-toggle"></label>
+                <label for="sys-switch" class="flex-row-center-item sys-imperial">Imperial</label>
+            </div>
+
+            <div class="grid grid--col-2 margin-bottom-md">
+                <div class="card hero-card">
+                    <p class="convert-heading">Original Gauge</p>
+                    <div class="grid convert-grid">
+                        <div class="column grid-item-center">
+                            <label for="og-stitches" class="input-label convert-input-label">Stitch count</label>
+                            <input class="input-text convert-input-text" type="number" id="og-stitches" value="28"/>
+                        </div>
+
+                        <span class="convert-text-frag grid-item-center"> stitches per </span>
+
+                        <div class="column grid-item-center">
+                            <label for="og-stitches-per" class="input-label convert-input-label">Width</label>
+                            <input class="input-text convert-input-text" type="number" id="og-width" value="4" />
+                        </div>
+                    
+                        <span class="convert-text-frag measure-unit grid-item-center">cms</span>
+
+                        <div class="column grid-item-center">
+                            <label for="og-rows" class="input-label convert-input-label">Row count</label>
+                            <input class="input-text convert-input-text" type="number" id="og-rows" value="28" />
+                        </div>
+
+                        <span class="convert-text-frag grid-item-center"> rows per </span>
+
+                        <div class="column grid-item-center">
+                            <label for="og-rows-per" class="input-label convert-input-label">Length</label>
+                            <input class="input-text convert-input-text" type="number" id="og-length" value="4" />
+                        </div>
+                    
+                        <span class="convert-text-frag measure-unit grid-item-center">cms</span>
+                    </div>
+
+                </div>
+                
+                <div class="card hero-card">
+                    <p class="convert-heading">Your Gauge</p>
+                    <div class="grid convert-grid">
+                        <div class="column grid-item-center">
+                        <label for="user-stitches" class="input-label convert-input-label">Stitch count</label>
+                        <input class="input-text convert-input-text" type="number" id="user-stitches" value="28" />
+                        </div>
+
+                        <span class="convert-text-frag grid-item-center"> stitches per </span>
+
+                        <div class="column grid-item-center">
+                            <label for="user-stitches-per" class="input-label convert-input-label">Width</label>
+                            <input class="input-text convert-input-text" type="number" id="user-width" value="4" />
+                        </div>
+                    
+                        <span class="convert-text-frag measure-unit grid-item-center">cms</span>
+
+                        <div class="column grid-item-center">
+                            <label for="user-rows" class="input-label convert-input-label">Row count</label>
+                            <input class="input-text convert-input-text" type="number" id="user-rows" value="28" />
+                        </div>
+
+                        <span class="convert-text-frag grid-item-center"> rows per </span>
+
+                        <div class="column">
+                            <label for="user-rows-per grid-item-center" class="input-label convert-input-label">Length</label>
+                            <input class="input-text convert-input-text" type="number" id="user-length" value="4" />
+                        </div>
+                    
+                        <span class="convert-text-frag measure-unit grid-item-center">cms</span>
+                    </div>
+                </div>
+            </div>
+            <button class="btn" id="convert-btn" onclick="handleSubmit(event)">Convert!</button>
+        </form>
+    </section>
+</body>
+<footer></footer>
+</html>

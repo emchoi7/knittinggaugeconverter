@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; 
+}
+
+body {
+    font-family: "Source Serif" sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+
+.heading-primary {
+    font-size: 8.6rem;
+    line-height: 1.1;
+    color: #460707;
+}
+
+.heading-secondary {
+    font-size: 5.2rem;
+    font-family: "Source Serif";
+    line-height: 1.1;
+    color: #460707;
+}
+
+.tagline {
+    font-family: "Oswald";
+    font-size: 3rem;
+    color: #d41717;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*************/
+/*  FLEX ROW  */
+/*************/
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: last baseline;
+}
+
+.flex-row-text-item {
+    align-self: last baseline;
+}
+
+.flex-row-center-item {
+    align-self: center;
+}
+
+.flex-gap-sm {
+    gap: 2rem;
+}
+
+/*************/
+/*  GRID  */
+/*************/
+
+.grid {
+    display: grid;
+}
+
+.grid--col-2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7.4rem;
+}
+
+.grid-item-center {
+    text-align: center;
+    align-self: last baseline;
+}
+
+
+/*************/
+/*  MARGIN  */
+/*************/
+
+.margin-bottom-md {
+    margin-bottom: 4.8rem;
+}
+
+.margin-left-sm {
+    margin-left: 2rem;
+}
+
+.margin-left-xs {
+    margin-left: 1.2rem;
+}
+
+
+/*************/
+/*  CARD  */
+/*************/
+
+.card {
+    border-radius: 9px;
+    box-shadow: 0 1rem 1rem 0 rgba(57, 17, 1, 0.1);
+}
+
+/*************/
+/*  FORM  */
+/*************/
+
+.input-text {
+    padding: 1.2rem;
+
+    font-family: "Oswald";
+    
+    border: none;
+    border-radius: 9px;
+}
+
+.input-text {
+    width: 80%;
+}
+
+.input-label {
+    font-family: "Oswald";
+    line-height: 1.6;
+}
