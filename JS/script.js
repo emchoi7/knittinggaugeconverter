@@ -171,6 +171,10 @@ function handleSubmit(e) {
     document.getElementById("convert-btn").disabled = true;
     note.textContent = "Your current inputs match the current conversions shown.";
     document.getElementsByTagName("form")[0].appendChild(note);
+
+    document.getElementsByClassName('section-analysis')[0].scrollIntoView({
+        behavior: "smooth"
+      });
 }
 
 function createCalcInput(toConvert, convertRatio, convertedValue) {
